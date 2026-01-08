@@ -1,0 +1,26 @@
+html[lang="ar"], body[lang="ar"], .lang-ar {
+  font-family: 'Tajawal', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  direction: rtl;
+  text-align: right;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html[lang="ar"] input,
+html[lang="ar"] textarea,
+.lang-ar input,
+.lang-ar textarea,
+.lang-ar select {
+  text-align: right;
+}
+
+html[lang="ar"] .ltr,
+.lang-ar .ltr {
+  direction: ltr;
+  text-align: left;
+  unicode-bidi: embed;
+}
+
+html[lang="ar"] .icon-flip-rtl {
+  transform: scaleX(-1);
+}
